@@ -1,0 +1,50 @@
+{
+  "bins": [
+    {
+      "bin": 0,
+      "counts": {
+        "adaptive": 349,
+        "fixed": 229
+      },
+      "coverage": "sufficient",
+      "means": {
+        "adaptive": 11.884304838887022,
+        "fixed": 11.627603758989302
+      },
+      "selected": "adaptive"
+    },
+    {
+      "bin": 1,
+      "counts": {
+        "adaptive": 808,
+        "fixed": 828
+      },
+      "coverage": "sufficient",
+      "means": {
+        "adaptive": 18.296627669301383,
+        "fixed": 17.999111416312438
+      },
+      "selected": "adaptive"
+    },
+    {
+      "bin": 2,
+      "counts": {
+        "adaptive": 709,
+        "fixed": 809
+      },
+      "coverage": "sufficient",
+      "means": {
+        "adaptive": 11.900326558556594,
+        "fixed": 13.810925264751818
+      },
+      "selected": "fixed"
+    }
+  ],
+  "degenerate_single_policy": false,
+  "mapping": [
+    "adaptive",
+    "adaptive",
+    "fixed"
+  ],
+  "source_phase": "calibration"
+}

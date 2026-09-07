@@ -1,0 +1,230 @@
+{
+  "initial": {
+    "history_steps": 10,
+    "n_actions": 4,
+    "n_features": 13,
+    "n_lstm_features": 9,
+    "policies": {
+      "adaptive": {
+        "agent_parameter_counts": [
+          7210,
+          7210,
+          7210,
+          7210,
+          7210,
+          7210
+        ],
+        "agent_trainable_weight_digests": [
+          "7aa74d4cb7363e651ea18da084a174594c9ea8510817af8deb334b633a52deab",
+          "0288b5aa41f28d34460ae6de4cb49975d8d4b2f43af9965f4ac58d55555e3450",
+          "51acf7b33a264f828d10c1728e4bad502cc677ec80bcca35744e4a48e4ddd0cf",
+          "91d2cd4909fd6f24d55a55d79f6096b279655ce0b1c6de921e9833c260f0cea5",
+          "80d87dc26ed740994649dd5e797e251546e34d71b004a8bcbacc75967df3a9c8",
+          "17ddd4d141d860c78e8ae36845e8a8c998725b503103f47e92f2097ab6883ab9"
+        ],
+        "agent_weight_digests": [
+          "e10e03430d58042eb7c38a83d653da744062a13e5aaa93c1b6bdf70281563ebf",
+          "3cbad6a43d52d3355b61df831360936ad1be35c73bc0fdfb42259d86d7099e77",
+          "b48887250f21dbc18b2598467cf2ff3917835a8482324f264208d90e7944a981",
+          "ee38f5e86bf55f2b9dade1828bf18d35f06c08bcbdb0cd5ffe4450b007eeaebd",
+          "0f08b87f153c7989145a1b64acb88f7d4de3042ffb1b16be30f7fbfa72bb05ea",
+          "d3e4fcade9fd8072d5ab399e82677957401ac51c7d95e3dfa28aca4e8c2691e7"
+        ],
+        "network_count": 6,
+        "parameter_count": 43260,
+        "replay_count": 0,
+        "trainable_weight_digest": "3b3282911388b7802c58acf8c238b729cab4ce043864c98a808d8e2a08216018",
+        "update_count": 0,
+        "weight_digest": "00c0a15fe123f0988ec223171d1150cbfa798b5d9b01a7778f5a809c01f1ce3f"
+      },
+      "contextual": {
+        "agent_parameter_counts": [
+          7210,
+          7210,
+          7210,
+          7210,
+          7210,
+          7210
+        ],
+        "agent_trainable_weight_digests": [
+          "e4bf55146387d19a6b914cd90e1d1433d0291945d956de06d0f34dccee8cdd7a",
+          "575004d640a5d501c75d8d83077dafb9b6f44795aebc741d335e7efb1d5f104f",
+          "603ffeb32d0d852be7abc9a849e695827e5301c0cd1f813b315492e4d5098f48",
+          "3da1b369b45323dd8e75c2eb3ed18b844fd2ea1bbf72f7a1c8e4b7915e009fca",
+          "f44bb594ecb31c4729ef83fa38df24c10da29552713dfcebd2016d1762ded745",
+          "5e700f541d714275f5e5996670f69edeb735db5f04a25cad8d2cac3b54f678bc"
+        ],
+        "agent_weight_digests": [
+          "4f8d63f258d094b40188eeb5cef6ce0dd1b6d9dd50a32cefbb610c6c955dc6c8",
+          "4df735f97d39c25dcef1e2ba2c1f0abd55cf480016d2156b6e5e594b2aaeb5ce",
+          "2aadd2404d62fb5fd83779004dd343b28aa818023abb3e5f0030b649f607f772",
+          "155f7c50107820110e3831379a290653ee56ae1255d15107855a0e99d56503ba",
+          "2f63c21a3a37f8236a33e938b369579f861859518230a50e3f55ee05912b5ed8",
+          "0935f2c6afe4439277520e9a7879ece42108691ebcb5918dbc561e824a6309c4"
+        ],
+        "network_count": 6,
+        "parameter_count": 43260,
+        "replay_count": 0,
+        "trainable_weight_digest": "6abda3f206a5bbe2ac62ed9a1c3f5b760d8153ca9a8d1b088fd25033a225189b",
+        "update_count": 0,
+        "weight_digest": "e2fb17d36dfcd7cc110ee6401d4252f7e2ff31d4c9bc60f6836dcfe779fe3828"
+      },
+      "fixed": {
+        "agent_parameter_counts": [
+          7210,
+          7210,
+          7210,
+          7210,
+          7210,
+          7210
+        ],
+        "agent_trainable_weight_digests": [
+          "92dfb5482b823f2372ed7baffb0683e2c866e7f934341516fd4d091ef195e0f4",
+          "9fe043d3553ba8faaca6179c656c3712e9da0e8ff302cbf612a12a8b51367d72",
+          "490c12e125fd4c0bd89f03247b14699789fe305eb71fa8bbc8dec53b14a10d27",
+          "274e29d7e4b9b70d961a315f0b455e2e7872c2ea1025e3cce7af8aa143a6db88",
+          "d411574a3c9ebda4d092fd06c9ae7991a1b55775cd714d45580d292dffdb91e2",
+          "b5018df58ad8b1b727ed15d771caadec3badee8fd5a9ff9e6bb57d1368937a9e"
+        ],
+        "agent_weight_digests": [
+          "3368ca4883f9b11dd04fa67d7917f516529a836c1fa860ba1e76b9cd836f916f",
+          "606633ec65d5f72d0b4f4bff998baecc89c738617230883bae7e039b3ec23955",
+          "1a1a7f89394756f4fd885cd63653535596257fd2fff0a9a36c952c6f5bd7caa2",
+          "702cd753f5de3e315fbe70fd36c69af4541f4fdd6271b70cfa564a9eb790522b",
+          "22670104bf1f8ff92a2e1fe527927e27b8b1230f41fcd85782c6caa82c300b47",
+          "dea474ce1e04f7eb219ee9e79f5ba483e5abe3909dddd909403fd2ac61e35d8c"
+        ],
+        "network_count": 6,
+        "parameter_count": 43260,
+        "replay_count": 0,
+        "trainable_weight_digest": "6a31ca1e1245fc95031883de3ecc66900e4b5e90383c8b78f7c62ed6b963a573",
+        "update_count": 0,
+        "weight_digest": "81d87d4d71d7f06d61f19abdf092c7fbecbf6ed9684553487679ec151ac7869e"
+      }
+    },
+    "pool_users": 6,
+    "runtime": {
+      "agent_count": 18,
+      "agent_session_model": "one_tf_graph_and_session_per_ue",
+      "agent_variable_scope": "one_scope_per_ue_graph",
+      "gpu_allow_growth": false,
+      "seed": 42
+    },
+    "schema_version": 1,
+    "seed": 42
+  },
+  "trained": {
+    "history_steps": 10,
+    "n_actions": 4,
+    "n_features": 13,
+    "n_lstm_features": 9,
+    "policies": {
+      "adaptive": {
+        "agent_parameter_counts": [
+          7210,
+          7210,
+          7210,
+          7210,
+          7210,
+          7210
+        ],
+        "agent_trainable_weight_digests": [
+          "9d5b761f1c183a888c7e5557ab3e3261a8971be557d4f8e4f6970b90d7c0e0c6",
+          "5fa4e37af9c43326dccdb192da1e3a06affe0c7c4cd990d00981487e13178468",
+          "3bb15199df4340324d0de9e48ff46f4cf0e954625cfc0300dd18ce830c4e8f50",
+          "c430c29e3e5f23b2750642c1aa959a45c1a6745fb64fd22e5876a27aebe44d9e",
+          "aa93b1ecf5c977c51dc24d36eb6d5b5061a7d9ea6e643acdbd99d999fafa3647",
+          "d62884fb819bc5f28cefc714a7f18a5722d8a8eafab7192d38e9728d7b41f457"
+        ],
+        "agent_weight_digests": [
+          "267afe4ed2d34c0aa4d42dc60478d9d76ca3bce244c62d3fdec4fe5f538bc048",
+          "a1af2ab325cd8964f967681b180b2c111ec6fbab9a4edade7968db74d37c22a0",
+          "3007498f313369ac9726131c70174098210e0f44d76928c08f2f976be537cac6",
+          "c9e7b0270b721be7901d05aa2809022bcd7d5b96fd5f13a78f48b38e76b65784",
+          "46124b510e0232eae4bcd52b9b53b88a96b8b0832989e1bab9079cdc7a37e074",
+          "80a3c6cc2d15303c38f1748370e517af013cfa1d35017da5a981cfd06fcae890"
+        ],
+        "network_count": 6,
+        "parameter_count": 43260,
+        "replay_count": 192,
+        "trainable_weight_digest": "728cb578ebd6db00b399022f1593376ec5f21b0c279acc9885a6e2972ca31902",
+        "update_count": 84,
+        "weight_digest": "ee154301659b1c5461974e5de7a84859951d01c4e930ac13b512e67a6b3b6553"
+      },
+      "contextual": {
+        "agent_parameter_counts": [
+          7210,
+          7210,
+          7210,
+          7210,
+          7210,
+          7210
+        ],
+        "agent_trainable_weight_digests": [
+          "65f9a98e5b99013913e4e784fc4ad81d0cac82d00cc317e30428d7eaba837cfe",
+          "33934150b70a647a47557c9bf6f1b6399916ac2a71fdde7b7875b167c2e5eb2e",
+          "2e47df278ef206532a7a695baa4fae26103c7051797a690a1f07fbabec9e3131",
+          "3b3ebe8921dd4dc73216d9a387b688b140c9e23011b4f90147f3c9380c370c71",
+          "55458ddb5b363ac4d9022c8bce55ca818968329d6612c29e410c7c978fe2da3e",
+          "32dfb59c12fe0ee8318cc5bfc7a0e1c506636e16cffe425326052d8a9b819797"
+        ],
+        "agent_weight_digests": [
+          "a4e5915e51694ec4c67ae85beff7e0e45453e48e873ef80ba0a72908e5832933",
+          "7a6078ee4d74b6cc7ce0b096444e5cb9e6361d03663f3a726592615371622fa1",
+          "1b51ad0eaee0bd59b277865ef677ba101a2a02a1de5610636b952e52b189bb7c",
+          "7fd38e3db3603297c0e9bc8f38a3f53de2a684c99a3502421dd9b9c899ebf2d4",
+          "0afd8c47771e3cb550cbd007ae1c57e876b947f8cac84749860e5eaaef067512",
+          "c34d428febb85d26f78f5b0e37cc9d0ba3d562033e649530ef6e4a906ba3ea81"
+        ],
+        "network_count": 6,
+        "parameter_count": 43260,
+        "replay_count": 192,
+        "trainable_weight_digest": "da60c1ac3fc2da26b3706755d23b0c5ad3155a56849d0b6f3880483653f00a2e",
+        "update_count": 84,
+        "weight_digest": "adebeee46b37a4a603124e593c647b21b3bbae44f9df451ca5f8cd1eced071b8"
+      },
+      "fixed": {
+        "agent_parameter_counts": [
+          7210,
+          7210,
+          7210,
+          7210,
+          7210,
+          7210
+        ],
+        "agent_trainable_weight_digests": [
+          "b25b8edc50de5084b4fedd03be5fedb2d509a22ddab8da4a0702f64f01dd7fcb",
+          "df77126a1b582f13f81cadc8e89979892169536b6c58eea264729a0cd6a19327",
+          "efd8d2dfcc3c25c87a4e46fb4f7c078353fc2204f17fce1badc12240519799f9",
+          "0b46c6ce4465bae7d6e30ddce3b7f96eecb1a6a8ca560fc4c9ffc26c0568f440",
+          "52f11988b7cb5b80223f2318627a623cd87a180befd467f19f897a95e1b92661",
+          "9a648c0e0ad8929c5240879e69468b68aded794f8e2f59b23ef23ade7da4a55e"
+        ],
+        "agent_weight_digests": [
+          "dcbf9439ad3c1d782a4384102835647956e181fd495310e99ab8e25a3afa1e24",
+          "e1179dae779acd1c61c40e10569bee79c0e28a47d07aed06b2096b6314d62ffc",
+          "84b31542aeb5bb1b104bac0621a74caeaf5c2adb6c39afd132e0ccb5e26d3351",
+          "7168c1a01569a6437cf37a5ff9a7743124bf7e19f27aaf42c9ac90523b5d7f86",
+          "630200b1a4ac10cbb2d510b45454b2baea706e74268d1277913b0eeeb9eb228b",
+          "b8f08a166c9cc9e59700795f0f3a0df40280e67251c2a53bb140e9c935e04d6c"
+        ],
+        "network_count": 6,
+        "parameter_count": 43260,
+        "replay_count": 192,
+        "trainable_weight_digest": "be5cc26b80fed5150ad57d7d718a782bca3efb744d7521f95385bac0c5d75b13",
+        "update_count": 84,
+        "weight_digest": "e9a101e8d7846581faa0575a6bdcb13e15149b24e8a59c020d3e8e3042be3c8e"
+      }
+    },
+    "pool_users": 6,
+    "runtime": {
+      "agent_count": 18,
+      "agent_session_model": "one_tf_graph_and_session_per_ue",
+      "agent_variable_scope": "one_scope_per_ue_graph",
+      "gpu_allow_growth": false,
+      "seed": 42
+    },
+    "schema_version": 1,
+    "seed": 42
+  }
+}

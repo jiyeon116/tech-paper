@@ -1,0 +1,7 @@
+{
+  "arm": "switching",
+  "completed_rollouts": 12,
+  "elapsed_seconds": 283.19152437569574,
+  "episode": 1,
+  "phase": "evaluation"
+}

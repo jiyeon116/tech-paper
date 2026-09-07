@@ -1,0 +1,29 @@
+{
+  "arm_order_checked": [
+    "fixed",
+    "adaptive",
+    "contextual",
+    "switching"
+  ],
+  "arm_order_invariant": true,
+  "calibrated_mapping": [
+    "adaptive",
+    "adaptive",
+    "fixed"
+  ],
+  "diagnostic_only": true,
+  "frozen_unchanged": true,
+  "real_bank_switches": 17,
+  "real_delayed_completions_after_switch": 21,
+  "scripted_selector_policies": [
+    "adaptive",
+    "adaptive",
+    "adaptive",
+    "fixed",
+    "fixed",
+    "fixed",
+    "adaptive",
+    "adaptive",
+    "adaptive"
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "calibrated_mapping": [
+    "adaptive",
+    "adaptive",
+    "fixed"
+  ],
+  "completed_rollouts": 16,
+  "config": {
+    "batch_size": 4,
+    "calibration_episodes": 1,
+    "calibration_min_tasks": 2,
+    "diagnostic": true,
+    "dwell_max": 5,
+    "dwell_min": 2,
+    "eval_episodes": 2,
+    "exploration_end": 0.05,
+    "exploration_start": 1.0,
+    "gamma": 0.9,
+    "history_steps": 10,
+    "learn_every": 5,
+    "learning_rate": 0.01,
+    "load_levels": [
+      1,
+      3,
+      6
+    ],
+    "load_mode": "persistent",
+    "max_delay": 10,
+    "memory_size": 32,
+    "pool_users": 6,
+    "selector_dwell": 5,
+    "target_update": 200,
+    "total_steps": 35,
+    "train_episodes": 2,
+    "version": 1
+  },
+  "config_hash": "5c7d69724fc177d2e1e5351ecab73664af9c7214d4ed2f4916352d72f8f64584",
+  "cpu_only": true,
+  "diagnostics": {
+    "arm_order_checked": [
+      "fixed",
+      "adaptive",
+      "contextual",
+      "switching"
+    ],
+    "arm_order_invariant": true,
+    "calibrated_mapping": [
+      "adaptive",
+      "adaptive",
+      "fixed"
+    ],
+    "diagnostic_only": true,
+    "frozen_unchanged": true,
+    "real_bank_switches": 17,
+    "real_delayed_completions_after_switch": 21,
+    "scripted_selector_policies": [
+      "adaptive",
+      "adaptive",
+      "adaptive",
+      "fixed",
+      "fixed",
+      "fixed",
+      "adaptive",
+      "adaptive",
+      "adaptive"
+    ]
+  },
+  "elapsed_seconds": 10.60808919603005,
+  "evaluation_updates": false,
+  "expected_rollouts": 16,
+  "learner_state": {
+    "history_steps": 10,
+    "n_actions": 4,
+    "n_features": 13,
+    "n_lstm_features": 9,
+    "policies": {
+      "adaptive": {
+        "agent_parameter_counts": [
+          7210,
+          7210,
+          7210,
+          7210,
+          7210,
+          7210
+        ],
+        "agent_trainable_weight_digests": [
+          "9d5b761f1c183a888c7e5557ab3e3261a8971be557d4f8e4f6970b90d7c0e0c6",
+          "5fa4e37af9c43326dccdb192da1e3a06affe0c7c4cd990d00981487e13178468",
+          "3bb15199df4340324d0de9e48ff46f4cf0e954625cfc0300dd18ce830c4e8f50",
+          "c430c29e3e5f23b2750642c1aa959a45c1a6745fb64fd22e5876a27aebe44d9e",
+          "aa93b1ecf5c977c51dc24d36eb6d5b5061a7d9ea6e643acdbd99d999fafa3647",
+          "d62884fb819bc5f28cefc714a7f18a5722d8a8eafab7192d38e9728d7b41f457"
+        ],
+        "agent_weight_digests": [
+          "267afe4ed2d34c0aa4d42dc60478d9d76ca3bce244c62d3fdec4fe5f538bc048",
+          "a1af2ab325cd8964f967681b180b2c111ec6fbab9a4edade7968db74d37c22a0",
+          "3007498f313369ac9726131c70174098210e0f44d76928c08f2f976be537cac6",
+          "c9e7b0270b721be7901d05aa2809022bcd7d5b96fd5f13a78f48b38e76b65784",
+          "46124b510e0232eae4bcd52b9b53b88a96b8b0832989e1bab9079cdc7a37e074",
+          "80a3c6cc2d15303c38f1748370e517af013cfa1d35017da5a981cfd06fcae890"
+        ],
+        "network_count": 6,
+        "parameter_count": 43260,
+        "replay_count": 192,
+        "trainable_weight_digest": "728cb578ebd6db00b399022f1593376ec5f21b0c279acc9885a6e2972ca31902",
+        "update_count": 84,
+        "weight_digest": "ee154301659b1c5461974e5de7a84859951d01c4e930ac13b512e67a6b3b6553"
+      },
+      "contextual": {
+        "agent_parameter_counts": [
+          7210,
+          7210,
+          7210,
+          7210,
+          7210,
+          7210
+        ],
+        "agent_trainable_weight_digests": [
+          "65f9a98e5b99013913e4e784fc4ad81d0cac82d00cc317e30428d7eaba837cfe",
+          "33934150b70a647a47557c9bf6f1b6399916ac2a71fdde7b7875b167c2e5eb2e",
+          "2e47df278ef206532a7a695baa4fae26103c7051797a690a1f07fbabec9e3131",
+          "3b3ebe8921dd4dc73216d9a387b688b140c9e23011b4f90147f3c9380c370c71",
+          "55458ddb5b363ac4d9022c8bce55ca818968329d6612c29e410c7c978fe2da3e",
+          "32dfb59c12fe0ee8318cc5bfc7a0e1c506636e16cffe425326052d8a9b819797"
+        ],
+        "agent_weight_digests": [
+          "a4e5915e51694ec4c67ae85beff7e0e45453e48e873ef80ba0a72908e5832933",
+          "7a6078ee4d74b6cc7ce0b096444e5cb9e6361d03663f3a726592615371622fa1",
+          "1b51ad0eaee0bd59b277865ef677ba101a2a02a1de5610636b952e52b189bb7c",
+          "7fd38e3db3603297c0e9bc8f38a3f53de2a684c99a3502421dd9b9c899ebf2d4",
+          "0afd8c47771e3cb550cbd007ae1c57e876b947f8cac84749860e5eaaef067512",
+          "c34d428febb85d26f78f5b0e37cc9d0ba3d562033e649530ef6e4a906ba3ea81"
+        ],
+        "network_count": 6,
+        "parameter_count": 43260,
+        "replay_count": 192,
+        "trainable_weight_digest": "da60c1ac3fc2da26b3706755d23b0c5ad3155a56849d0b6f3880483653f00a2e",
+        "update_count": 84,
+        "weight_digest": "adebeee46b37a4a603124e593c647b21b3bbae44f9df451ca5f8cd1eced071b8"
+      },
+      "fixed": {
+        "agent_parameter_counts": [
+          7210,
+          7210,
+          7210,
+          7210,
+          7210,
+          7210
+        ],
+        "agent_trainable_weight_digests": [
+          "b25b8edc50de5084b4fedd03be5fedb2d509a22ddab8da4a0702f64f01dd7fcb",
+          "df77126a1b582f13f81cadc8e89979892169536b6c58eea264729a0cd6a19327",
+          "efd8d2dfcc3c25c87a4e46fb4f7c078353fc2204f17fce1badc12240519799f9",
+          "0b46c6ce4465bae7d6e30ddce3b7f96eecb1a6a8ca560fc4c9ffc26c0568f440",
+          "52f11988b7cb5b80223f2318627a623cd87a180befd467f19f897a95e1b92661",
+          "9a648c0e0ad8929c5240879e69468b68aded794f8e2f59b23ef23ade7da4a55e"
+        ],
+        "agent_weight_digests": [
+          "dcbf9439ad3c1d782a4384102835647956e181fd495310e99ab8e25a3afa1e24",
+          "e1179dae779acd1c61c40e10569bee79c0e28a47d07aed06b2096b6314d62ffc",
+          "84b31542aeb5bb1b104bac0621a74caeaf5c2adb6c39afd132e0ccb5e26d3351",
+          "7168c1a01569a6437cf37a5ff9a7743124bf7e19f27aaf42c9ac90523b5d7f86",
+          "630200b1a4ac10cbb2d510b45454b2baea706e74268d1277913b0eeeb9eb228b",
+          "b8f08a166c9cc9e59700795f0f3a0df40280e67251c2a53bb140e9c935e04d6c"
+        ],
+        "network_count": 6,
+        "parameter_count": 43260,
+        "replay_count": 192,
+        "trainable_weight_digest": "be5cc26b80fed5150ad57d7d718a782bca3efb744d7521f95385bac0c5d75b13",
+        "update_count": 84,
+        "weight_digest": "e9a101e8d7846581faa0575a6bdcb13e15149b24e8a59c020d3e8e3042be3c8e"
+      }
+    },
+    "pool_users": 6,
+    "runtime": {
+      "agent_count": 18,
+      "agent_session_model": "one_tf_graph_and_session_per_ue",
+      "agent_variable_scope": "one_scope_per_ue_graph",
+      "gpu_allow_growth": false,
+      "seed": 42
+    },
+    "schema_version": 1,
+    "seed": 42
+  },
+  "limitations": [
+    "Short functional pilot, not convergence or significance evidence",
+    "Frozen evaluation tests selection, not continual parameter adaptation",
+    "Bank has twice a single policy's deployed parameter count",
+    "Inherited in-flight transmission capacity retention; no physical mobility claim"
+  ],
+  "max_rss_kib": 534668,
+  "metrics": {
+    "adaptive": {
+      "completion_rate": 0.94,
+      "controller_seconds_per_decision": 0.0008941855906908001,
+      "controller_seconds_per_step": 0.0006762455084494182,
+      "delay": 3.192857142857143,
+      "drop": 1.5,
+      "drop_rate": 0.06,
+      "energy": 33.3591313863394,
+      "qoe": 15.724229105951167,
+      "seconds_per_decision": 0.0006464695029093752,
+      "switch_count": 0.0
+    },
+    "contextual": {
+      "completion_rate": 0.94,
+      "controller_seconds_per_decision": 0.0008784205835711743,
+      "controller_seconds_per_step": 0.0006641880941710301,
+      "delay": 3.2035714285714283,
+      "drop": 1.5,
+      "drop_rate": 0.06,
+      "energy": 33.55562396398266,
+      "qoe": 15.822971432435853,
+      "seconds_per_decision": 0.0006317285019239145,
+      "switch_count": 0.0
+    },
+    "fixed": {
+      "completion_rate": 0.7328571428571429,
+      "controller_seconds_per_decision": 0.0008957420252928776,
+      "controller_seconds_per_step": 0.0006769544977162566,
+      "delay": 6.235714285714286,
+      "drop": 7.0,
+      "drop_rate": 0.2671428571428571,
+      "energy": 12.881638490719954,
+      "qoe": 18.6651043607828,
+      "seconds_per_decision": 0.0006496202207303473,
+      "switch_count": 0.0
+    },
+    "switching": {
+      "completion_rate": 0.94,
+      "controller_seconds_per_decision": 0.0009040091742229248,
+      "controller_seconds_per_step": 0.0006837342000965562,
+      "delay": 3.192857142857143,
+      "drop": 1.5,
+      "drop_rate": 0.06,
+      "energy": 33.3591313863394,
+      "qoe": 15.724229105951167,
+      "seconds_per_decision": 0.0006370657170191407,
+      "switch_count": 0.0
+    }
+  },
+  "numpy": "1.23.5",
+  "protocol": "dynamic-specialists-v1",
+  "resolved_environment": {
+    "ADAPT2_DENSE_MIN_USERS_PER_EDGE": 350.0,
+    "ADAPT2_DENSE_POLICY": "qeco-adaptive-gate",
+    "ADAPT2_GENERAL_POLICY": "qeco-adapt-general",
+    "ADAPT2_SPARSE_MAX_USERS_PER_EDGE": 50.0,
+    "ADAPT2_SPARSE_POLICY": "qeco-adapt-general",
+    "AP_CLUSTER_SIZE": 3,
+    "AP_FRONTHAUL_MAX_DELAY": 0.1,
+    "AP_FRONTHAUL_MIN_DELAY": 0.01,
+    "CHANNEL_BANDWIDTH_MHZ": 1.0,
+    "CHANNEL_CAPACITY_SCALE": 14.0,
+    "CHANNEL_COUNT": 4,
+    "CHANNEL_MAX_GAIN": 1e-05,
+    "CHANNEL_MIN_GAIN": 1e-07,
+    "CHANNEL_NOISE_POWER": 1e-09,
+    "CHANNEL_TX_POWER": 1.0,
+    "COMPARISON_POINTS": 500,
+    "DENSITY_CHOICES": [],
+    "DENSITY_MAX": 0,
+    "DENSITY_MIN": 0,
+    "DENSITY_MODE": "fixed",
+    "DENSITY_SUBSET": "random",
+    "EXPERIMENT_FAMILY": "",
+    "MAX_DELAY": 10,
+    "NAME": "qeco_adapt_channel_aware_extension",
+    "NUM_ACCESS_POINTS": 6,
+    "NUM_COMPONENTS": 1,
+    "NUM_EDGES": 3,
+    "NUM_USERS": 6,
+    "QECO_ADAPT_BASE_ENERGY_WEIGHT": 1.2,
+    "QECO_ADAPT_EDGE_BACKLOG_THRESHOLD": 12.0,
+    "QECO_ADAPT_LOAD_SCALE": 10.0,
+    "QECO_ADAPT_MIN_ENERGY_STATE": 0.35,
+    "QECO_ADAPT_SIZE_THRESHOLD": 1.5,
+    "QECO_ADAPT_USER_EXPONENT": 0.35,
+    "QECO_ARRIVAL_BASE_PROFILE": [
+      0.18,
+      0.3,
+      0.42,
+      0.24
+    ],
+    "QECO_EPISODES": 500,
+    "QECO_TASK_ARRIVE_PROB": 0.3,
+    "QECO_TIME_SLOTS": 100,
+    "QECO_USER_ACTIVITY_MAX": 1.3,
+    "QECO_USER_ACTIVITY_MIN": 0.7,
+    "RANDOM_SEED": 42
+  },
+  "revision": "67c1a8c40c6b94de4add2f6d0a6d2dadbdddd3e7",
+  "seed": 42,
+  "source_identity": {
+    "file_count": 45,
+    "identity_hash": "7fdf76f7ae9f0e6dc998237a85b485f279bf8220d90a74dba5e6a76f8160edf4",
+    "mode": "archive",
+    "revision": "67c1a8c40c6b94de4add2f6d0a6d2dadbdddd3e7"
+  },
+  "source_identity_hash": "7fdf76f7ae9f0e6dc998237a85b485f279bf8220d90a74dba5e6a76f8160edf4",
+  "status": "complete",
+  "tensorflow": "2.8.0"
+}

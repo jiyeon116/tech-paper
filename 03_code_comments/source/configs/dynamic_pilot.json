@@ -1,0 +1,9 @@
+{
+  "pool_users": 150,
+  "load_levels": [30, 90, 150],
+  "load_mode": "persistent",
+  "total_steps": 100,
+  "train_episodes": 30,
+  "calibration_episodes": 6,
+  "eval_episodes": 12
+}

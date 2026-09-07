@@ -1,0 +1,4 @@
+numpy==1.23.5
+matplotlib>=3.5.0
+tensorflow==2.8.0
+protobuf<3.21

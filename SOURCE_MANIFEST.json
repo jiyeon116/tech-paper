@@ -1,0 +1,780 @@
+{
+  "snapshot_date": "2026-09-06",
+  "code_revision": "67c1a8c40c6b94de4add2f6d0a6d2dadbdddd3e7",
+  "documents_root": "paths are relative to the local Documents folder",
+  "source_records": [
+    {
+      "source_relative_to_documents": "qeco-adapt2/LICENSE",
+      "package_path": "03_code_comments/source/LICENSE",
+      "sha256": "1dee53fdd4a459d8648764f1b89ee3c66ceb7ec7ca8224868daaf9b20ae150e6",
+      "bytes": 1113,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/Makefile",
+      "package_path": "03_code_comments/source/Makefile",
+      "sha256": "bc48d579bec5834ba989f7aab74d2595a1fcec6aef1e8852f81177f4ee22402d",
+      "bytes": 933,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/PROVENANCE.md",
+      "package_path": "03_code_comments/source/PROVENANCE.md",
+      "sha256": "ab2f4ec60dd84bb26b1e8f96f8611cd12197f363a39cb299f44df7ac77a35180",
+      "bytes": 678,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/README.md",
+      "package_path": "03_code_comments/source/README.md",
+      "sha256": "31d06a8090b0845b87dfc12675e452c657dfb2513faafae77f15e215185e4e9f",
+      "bytes": 4896,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/THIRD_PARTY_NOTICES.md",
+      "package_path": "03_code_comments/source/THIRD_PARTY_NOTICES.md",
+      "sha256": "86f0b50a58c3b9463847571f318116810ab54e150c4f81b375b7059f8cee6d21",
+      "bytes": 765,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/algorithm_adapters/__init__.py",
+      "package_path": "03_code_comments/source/algorithm_adapters/__init__.py",
+      "sha256": "d4836a061fba9fd221e2918cf6df60690a943d2cdd3a03bc34af382fcce0b4fa",
+      "bytes": 365,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/algorithm_adapters/registry.py",
+      "package_path": "03_code_comments/source/algorithm_adapters/registry.py",
+      "sha256": "3b37579ee6ad764fd7cdd8e7151025d1901cfc2c7ae54839c130fb0fc18eed82",
+      "bytes": 20517,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/channel_common_eval.py",
+      "package_path": "03_code_comments/source/channel_common_eval.py",
+      "sha256": "9b0454d4b1bf7f72f54aeda64a295624142e4860191f55fc72b09526b27d82e4",
+      "bytes": 13971,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/channel_env/__init__.py",
+      "package_path": "03_code_comments/source/channel_env/__init__.py",
+      "sha256": "c244c003671d0a28bb169615b70929964cbb6551c47041999ceb1786977767c0",
+      "bytes": 76,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/channel_env/channel_mec_env.py",
+      "package_path": "03_code_comments/source/channel_env/channel_mec_env.py",
+      "sha256": "677110c9ff1838bf580565e1e5c8e36fdb64a5a48a2be1875b175eb6d29ab1a6",
+      "bytes": 15071,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/compare_results.py",
+      "package_path": "03_code_comments/source/compare_results.py",
+      "sha256": "e4bdb4054d94bf07f1f3f4b38a87518769cf7089ca5888055d4ab2de4db13bf7",
+      "bytes": 51586,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/configs/dynamic_pilot.json",
+      "package_path": "03_code_comments/source/configs/dynamic_pilot.json",
+      "sha256": "72e3cbaa5d5f1d9cb7e19e4b162f4084d38b56638b6d02c80fbcb7dddbc8b3aa",
+      "bytes": 183,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/configs/dynamic_smoke.json",
+      "package_path": "03_code_comments/source/configs/dynamic_smoke.json",
+      "sha256": "799813e127a2db8768168eabe2b4ab2f2ac83f01476d53879183f8c0a6e4fb4b",
+      "bytes": 322,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/docs/dynamic_specialist_pilot.md",
+      "package_path": "03_code_comments/source/docs/dynamic_specialist_pilot.md",
+      "sha256": "0db55fe836109c242931c79f3f6b12150006e5b81444b4ac395f4ef52f9a5756",
+      "bytes": 4340,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/docs/qeco_adapt2_design.md",
+      "package_path": "03_code_comments/source/docs/qeco_adapt2_design.md",
+      "sha256": "66b3bb41cc08a6f83adcd00f7d76c749c37d9cc2c224b2709bf3e5b484546e6a",
+      "bytes": 5784,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/dynamic_experiment/__init__.py",
+      "package_path": "03_code_comments/source/dynamic_experiment/__init__.py",
+      "sha256": "21fdf6a2ce29281f923bdf27cf507f65893e4209402538b554cb6501dcb850a4",
+      "bytes": 85,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/dynamic_experiment/config.py",
+      "package_path": "03_code_comments/source/dynamic_experiment/config.py",
+      "sha256": "8b42b4d0e814be870884361012fcf046bf06be058fc265caea646c406b1a6f88",
+      "bytes": 2847,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/dynamic_experiment/environment.py",
+      "package_path": "03_code_comments/source/dynamic_experiment/environment.py",
+      "sha256": "6615eb9ec9d1889876805b59c3e34be083fa61f5bb43bce5942cf4bba4a6d0a1",
+      "bytes": 6747,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/dynamic_experiment/learner.py",
+      "package_path": "03_code_comments/source/dynamic_experiment/learner.py",
+      "sha256": "55504b6e07acacb86fffdf87369bfeebf168eae5bd43dbfca90ef7ecfab32355",
+      "bytes": 19249,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/dynamic_experiment/provenance.py",
+      "package_path": "03_code_comments/source/dynamic_experiment/provenance.py",
+      "sha256": "bdff0fb4572773d089a56e5dfae68fb3fd1ff034ca5c13b89d30b65b01543ed0",
+      "bytes": 11273,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/dynamic_experiment/run.py",
+      "package_path": "03_code_comments/source/dynamic_experiment/run.py",
+      "sha256": "c696a0e254951809f1daebf04769357907e8ca05e48daa80cc7953c14ced0031",
+      "bytes": 19329,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/dynamic_experiment/selector.py",
+      "package_path": "03_code_comments/source/dynamic_experiment/selector.py",
+      "sha256": "bf5c6b8c66b969c7de50e383cbde307600a8d8ca4d7ffdef38a0ac10ba5bb430",
+      "bytes": 2442,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/dynamic_experiment/traces.py",
+      "package_path": "03_code_comments/source/dynamic_experiment/traces.py",
+      "sha256": "d4097e2b7ac5540241c6f36d76aae66e026c319bf3927cbc1ee8546db623d09b",
+      "bytes": 9439,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/experiment_support.py",
+      "package_path": "03_code_comments/source/experiment_support.py",
+      "sha256": "f27219467820f22f4d1f1835ac52dc0dff5e4b55b4b58de8fa603dc96d0f0d6e",
+      "bytes": 24850,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/qeco_runtime/Config.py",
+      "package_path": "03_code_comments/source/qeco_runtime/Config.py",
+      "sha256": "56e13b328c862be32892ea7d0e2fce4649acdeea61084c1d79089601e2ce00b9",
+      "bytes": 1035,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/qeco_runtime/D3QN.py",
+      "package_path": "03_code_comments/source/qeco_runtime/D3QN.py",
+      "sha256": "99a09fb6a7813831c5ee9b5a0c7eca6356550d0ec17189b5a9f3babe937513e7",
+      "bytes": 20293,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/qeco_runtime/MEC_Env.py",
+      "package_path": "03_code_comments/source/qeco_runtime/MEC_Env.py",
+      "sha256": "6b2325afe8abed932cedcf6564523e009a757e2563030db32b80c525a4390810",
+      "bytes": 32120,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/qeco_runtime/__init__.py",
+      "package_path": "03_code_comments/source/qeco_runtime/__init__.py",
+      "sha256": "89e4d2127563cb50eb06575347dd783ecbedad626d569b9c0b487d6889f2caa2",
+      "bytes": 49,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/requirements.txt",
+      "package_path": "03_code_comments/source/requirements.txt",
+      "sha256": "545a65bb9a6839d9cb2b17300decc8adbde1c5c7e0a0896298d562451b6a81cc",
+      "bytes": 64,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/scripts/launch_dynamic_cpu.sh",
+      "package_path": "03_code_comments/source/scripts/launch_dynamic_cpu.sh",
+      "sha256": "f46cf73000479498890086326501b7060ecac0b31ec24578ecaad6fe1e30f6b8",
+      "bytes": 3491,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/scripts/qeco_artifact_manifest.py",
+      "package_path": "03_code_comments/source/scripts/qeco_artifact_manifest.py",
+      "sha256": "4ad02e4b6fc790647cff8f7e4f6abfa8bab225d9392950839c7831361097b393",
+      "bytes": 5912,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/scripts/qeco_workflow.py",
+      "package_path": "03_code_comments/source/scripts/qeco_workflow.py",
+      "sha256": "bde1086ead8242b256c5b6a6efdbcb45014b56aa8bb346c80ee4531b4750e068",
+      "bytes": 16341,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/scripts/run_adapt2_phase_a.sh",
+      "package_path": "03_code_comments/source/scripts/run_adapt2_phase_a.sh",
+      "sha256": "043640b008291be235072b29fd7514fff003d976a847712f56c7f48d95bc2a0a",
+      "bytes": 4091,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/scripts/run_adapt2_phase_b.sh",
+      "package_path": "03_code_comments/source/scripts/run_adapt2_phase_b.sh",
+      "sha256": "d6e51be44d0d663db911d233a21a7f4d68d0319e3ed61dfe2ae78524b9b7bcf2",
+      "bytes": 3828,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/scripts/run_dynamic_campaign.py",
+      "package_path": "03_code_comments/source/scripts/run_dynamic_campaign.py",
+      "sha256": "9709ed1b8c7c4bc0510886270497b96fc2cf793b1c67ee0826bd075deadd4a49",
+      "bytes": 16958,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/tests/test_adapt2.py",
+      "package_path": "03_code_comments/source/tests/test_adapt2.py",
+      "sha256": "a76265b86054534cb9710178e5ca57026f9499a5896d897978aa0bcce6c882b0",
+      "bytes": 16560,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/tests/test_compare_results.py",
+      "package_path": "03_code_comments/source/tests/test_compare_results.py",
+      "sha256": "cbe65da6925e45c441cc710c66680b06fb02f2d8f88b04f8a43407dcb4041a46",
+      "bytes": 13939,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/tests/test_dynamic_campaign.py",
+      "package_path": "03_code_comments/source/tests/test_dynamic_campaign.py",
+      "sha256": "d38e17548d687740688dde01b6a6b2985ba5b9ff43e5a1a120aa829278630a7b",
+      "bytes": 12137,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/tests/test_dynamic_environment.py",
+      "package_path": "03_code_comments/source/tests/test_dynamic_environment.py",
+      "sha256": "4dd9a6dbc3782978eaffb4aecefbebc4cc0dd2a27600094029371071e9f07247",
+      "bytes": 7947,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/tests/test_dynamic_learner.py",
+      "package_path": "03_code_comments/source/tests/test_dynamic_learner.py",
+      "sha256": "ce4c90d406c217687895bd3308ab908c04600c06522169953334c2330a8d0eee",
+      "bytes": 13429,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/tests/test_dynamic_provenance.py",
+      "package_path": "03_code_comments/source/tests/test_dynamic_provenance.py",
+      "sha256": "f0991d791187cf94686415f9f2b63440a30b929747569e91802c27b9bcf2c6a1",
+      "bytes": 5679,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/tests/test_dynamic_run.py",
+      "package_path": "03_code_comments/source/tests/test_dynamic_run.py",
+      "sha256": "481cd2356d26ffa2351bc0145aafb05315d91ab7cb4f554a6f82ed495e9746c0",
+      "bytes": 7890,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/tests/test_qeco_artifact_manifest.py",
+      "package_path": "03_code_comments/source/tests/test_qeco_artifact_manifest.py",
+      "sha256": "23b1a2645596811e8b15881e95279eb8e3f823d6915a03d1d1b0bba9231b1f82",
+      "bytes": 4810,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/tests/test_qeco_workflow.py",
+      "package_path": "03_code_comments/source/tests/test_qeco_workflow.py",
+      "sha256": "f98339babdb3893449da0f3723982a61b1b01e0565a560042141f121ac98dac5",
+      "bytes": 6462,
+      "purpose": "exact committed code snapshot"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/docs/adapt2/paper_draft_qeco_adapt2_kr_extended.md",
+      "package_path": "00_context/adapt2_extended_snapshot.md",
+      "sha256": "8b8ffb2081e23967653477054fe66f00ba7293d4e7f14fc761d13ecf04992139",
+      "bytes": 31886,
+      "purpose": "read-only document snapshot; version boundaries in PROVENANCE_AND_LIMITS.md"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/docs/adapt2/qeco_adapt2_ultrasparse_partial_experiment_analysis.md",
+      "package_path": "00_context/ultrasparse_partial_report.md",
+      "sha256": "d37e3027563d75fc6cdeb8bbc9625c2d45be2f32fad38ee02c5ff3cfe9122e89",
+      "bytes": 18750,
+      "purpose": "read-only document snapshot; version boundaries in PROVENANCE_AND_LIMITS.md"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/docs/dynamic_specialist_pilot.md",
+      "package_path": "00_context/dynamic_protocol.md",
+      "sha256": "0db55fe836109c242931c79f3f6b12150006e5b81444b4ac395f4ef52f9a5756",
+      "bytes": 4340,
+      "purpose": "read-only document snapshot; version boundaries in PROVENANCE_AND_LIMITS.md"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/docs/topology_structure.png",
+      "package_path": "01_figures/assets/topology_structure.png",
+      "sha256": "f87ca80ea628a3f3cd0406a663908726edf0deb53c3a96463641bcd04e1c98e7",
+      "bytes": 84350,
+      "purpose": "existing diagram reference, not a new specialist diagram"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/docs/user_perspective_data_flow.png",
+      "package_path": "01_figures/assets/user_perspective_data_flow.png",
+      "sha256": "065511732b7c847e1e3115ee128b6adda36b96bfd8e61cb050f2da0df2a0f7c2",
+      "bytes": 74058,
+      "purpose": "existing diagram reference, not a new specialist diagram"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/docs/server_perspective_data_flow.png",
+      "package_path": "01_figures/assets/server_perspective_data_flow.png",
+      "sha256": "7b6e3712df52e8456b7b6822ee7b3bbd66c64caf6e3d1c8dce95d18470378a4e",
+      "bytes": 82540,
+      "purpose": "existing diagram reference, not a new specialist diagram"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/scripts/render_paper_figures.py",
+      "package_path": "01_figures/editable/render_paper_figures_legacy.py",
+      "sha256": "e6d3c42d40683a5b5fe1a8b11bb24c81a62e9613e7167dbc476e725ffd34a716",
+      "bytes": 38624,
+      "purpose": "legacy editable source; inspect portability caveat before running"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/results/adapt2/comparisons/random_density/adapt2_user_100-1500_random_seed_42_ep_500_edge_3_ap_6_channel_4/comparison_timeseries.csv",
+      "package_path": "01_figures/data/legacy_random/comparison_timeseries.csv",
+      "sha256": "69132e0c30afed7a9afc86d6b656f109ce49a24c839b49db1c7ddec0877caa34",
+      "bytes": 121466,
+      "purpose": "historical episode-varying, single-seed, shared learner comparison"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/results/adapt2/comparisons/random_density/adapt2_user_100-1500_random_seed_42_ep_500_edge_3_ap_6_channel_4/comparison_overall.csv",
+      "package_path": "01_figures/data/legacy_random/comparison_overall.csv",
+      "sha256": "67a9806f05b03b5e0d343825783e6547ae88397c08629fcdbd6fc18a36c4018c",
+      "bytes": 434,
+      "purpose": "historical episode-varying, single-seed, shared learner comparison"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/results/adapt2/comparisons/random_density/adapt2_user_100-1500_random_seed_42_ep_500_edge_3_ap_6_channel_4/comparison_by_regime.csv",
+      "package_path": "01_figures/data/legacy_random/comparison_by_regime.csv",
+      "sha256": "014aac9322e35835e052ad8889d950734aa66f4b13e99f8c216ad163954c9b89",
+      "bytes": 1662,
+      "purpose": "historical episode-varying, single-seed, shared learner comparison"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/results/adapt2/comparisons/random_density/adapt2_user_100-1500_random_seed_42_ep_500_edge_3_ap_6_channel_4/comparison_section_means.csv",
+      "package_path": "01_figures/data/legacy_random/comparison_section_means.csv",
+      "sha256": "cad2af175bdbfeb5aa8439c830db8d20aadcf372fe24870b86288e54b6c53641",
+      "bytes": 1097,
+      "purpose": "historical episode-varying, single-seed, shared learner comparison"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/results/adapt2/comparisons/random_density/adapt2_user_100-1500_random_seed_42_ep_500_edge_3_ap_6_channel_4/active_users_timeseries.csv",
+      "package_path": "01_figures/data/legacy_random/active_users_timeseries.csv",
+      "sha256": "bd2de9828bcbebd1cf88c5bb7d5455c57e65523a6ea719455bdd06ed5b34c862",
+      "bytes": 8162,
+      "purpose": "historical episode-varying, single-seed, shared learner comparison"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/results/adapt2/comparisons/random_density/adapt2_user_100-1500_random_seed_42_ep_500_edge_3_ap_6_channel_4/comparison_summary.json",
+      "package_path": "01_figures/data/legacy_random/comparison_summary.json",
+      "sha256": "52af5e009171e797313a2549f0468eadfe5bcbe0271398a3f85610c1ea43d4ad",
+      "bytes": 10966,
+      "purpose": "historical episode-varying, single-seed, shared learner comparison"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/results/adapt2/comparisons/random_density/adapt2_user_100-1500_random_seed_42_ep_500_edge_3_ap_6_channel_4/ActiveUsers_Timeseries.png",
+      "package_path": "01_figures/data/legacy_random/ActiveUsers_Timeseries.png",
+      "sha256": "fb2fa8e0b233197840edf330c721ef2c1c0539e66fbc1c7deca2f6ac051d5d19",
+      "bytes": 72094,
+      "purpose": "historical episode-varying, single-seed, shared learner comparison"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/results/adapt2/comparisons/random_density/adapt2_user_100-1500_random_seed_42_ep_500_edge_3_ap_6_channel_4/selected4_QoE_Timeseries.png",
+      "package_path": "01_figures/data/legacy_random/selected4_QoE_Timeseries.png",
+      "sha256": "23f78ab2d24953a444dec46e8e3a562049615b9202b511da68cfc44b0b804a52",
+      "bytes": 1545930,
+      "purpose": "historical episode-varying, single-seed, shared learner comparison"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/results/adapt2/comparisons/random_density/adapt2_user_100-1500_random_seed_42_ep_500_edge_3_ap_6_channel_4/selected4_CompletionRate_Timeseries.png",
+      "package_path": "01_figures/data/legacy_random/selected4_CompletionRate_Timeseries.png",
+      "sha256": "6ce186b46a0db9ccb6d51b364f2d05efcfcd488a642cee463002d357b71ae133",
+      "bytes": 1537173,
+      "purpose": "historical episode-varying, single-seed, shared learner comparison"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/smoke-67c1a8c/seed_42/attempt_001/result/calibration.json",
+      "package_path": "01_figures/data/dynamic_smoke/seed_42/attempt_001/result/calibration.json",
+      "sha256": "396040aaa53485d6057d08473aeecf55ccfde57b9358250bacc44e537808725b",
+      "bytes": 937,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/smoke-67c1a8c/seed_42/attempt_001/result/checksums.json",
+      "package_path": "01_figures/data/dynamic_smoke/seed_42/attempt_001/result/checksums.json",
+      "sha256": "f34c3459c33fdf606afa78e4ca1729f11c87b24fead46da32fad20727451db6f",
+      "bytes": 716,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/smoke-67c1a8c/seed_42/attempt_001/result/episodes.jsonl",
+      "package_path": "01_figures/data/dynamic_smoke/seed_42/attempt_001/result/episodes.jsonl",
+      "sha256": "92222b14ac0eabdec3c2807a2bcd482416c5227656dc4514704fcabb513bf55d",
+      "bytes": 12472,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/smoke-67c1a8c/seed_42/attempt_001/result/manifest.json",
+      "package_path": "01_figures/data/dynamic_smoke/seed_42/attempt_001/result/manifest.json",
+      "sha256": "c13a311d99adc718e4b206923579d039791a5f74b755b8accf67ce3828822446",
+      "bytes": 10441,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/smoke-67c1a8c/seed_42/attempt_001/result/progress.json",
+      "package_path": "01_figures/data/dynamic_smoke/seed_42/attempt_001/result/progress.json",
+      "sha256": "14c0b123e7d89b341c1c57d735d43441cb57eeba57a1b3432069eac3feec93a4",
+      "bytes": 134,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/smoke-67c1a8c/seed_42/attempt_001/result/runtime_diagnostics.json",
+      "package_path": "01_figures/data/dynamic_smoke/seed_42/attempt_001/result/runtime_diagnostics.json",
+      "sha256": "6889c504a02890572c0535c85b658c030fd499bdb0a0272bfa2bb8df079bb0a6",
+      "bytes": 505,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/smoke-67c1a8c/seed_42/attempt_001/result/steps.jsonl",
+      "package_path": "01_figures/data/dynamic_smoke/seed_42/attempt_001/result/steps.jsonl",
+      "sha256": "4e5147fdf919fdb5c8d4cae99c115a03f890022cb9b3ce11b759aca3a9d03cc6",
+      "bytes": 211356,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/smoke-67c1a8c/seed_42/attempt_001/result/summary.json",
+      "package_path": "01_figures/data/dynamic_smoke/seed_42/attempt_001/result/summary.json",
+      "sha256": "c13a311d99adc718e4b206923579d039791a5f74b755b8accf67ce3828822446",
+      "bytes": 10441,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/smoke-67c1a8c/seed_42/attempt_001/result/trained_state.json",
+      "package_path": "01_figures/data/dynamic_smoke/seed_42/attempt_001/result/trained_state.json",
+      "sha256": "4248b3d9f66219d4f7353dbac11700ec6aa4326ae40abb886acdc8d065603766",
+      "bytes": 9940,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/scale-67c1a8c/seed_42/attempt_001/result/calibration.json",
+      "package_path": "01_figures/data/dynamic_scale/seed_42/attempt_001/result/calibration.json",
+      "sha256": "141f9916187d2cb836fb1562420c18d77d0bb99df2ff53a16c5db9fc20acfa89",
+      "bytes": 945,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/scale-67c1a8c/seed_42/attempt_001/result/checksums.json",
+      "package_path": "01_figures/data/dynamic_scale/seed_42/attempt_001/result/checksums.json",
+      "sha256": "05c570da0de6fedc5ef492e235f07cc168e305512f6bfe06393afcc6d3db3b38",
+      "bytes": 618,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/scale-67c1a8c/seed_42/attempt_001/result/episodes.jsonl",
+      "package_path": "01_figures/data/dynamic_scale/seed_42/attempt_001/result/episodes.jsonl",
+      "sha256": "6553493594fb235f663ce689ad6fffe249e78625659ed0f9d4392dbdde996098",
+      "bytes": 9708,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/scale-67c1a8c/seed_42/attempt_001/result/manifest.json",
+      "package_path": "01_figures/data/dynamic_scale/seed_42/attempt_001/result/manifest.json",
+      "sha256": "47e824160362fd89039115bf328a17950f11c1c9061afdbeba32119a2e5e3543",
+      "bytes": 84323,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/scale-67c1a8c/seed_42/attempt_001/result/progress.json",
+      "package_path": "01_figures/data/dynamic_scale/seed_42/attempt_001/result/progress.json",
+      "sha256": "12a29ea045d4a3e02883b506ea70c2f5d95e4d68a7c2c3c940284ed6cf62cbae",
+      "bytes": 135,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/scale-67c1a8c/seed_42/attempt_001/result/steps.jsonl",
+      "package_path": "01_figures/data/dynamic_scale/seed_42/attempt_001/result/steps.jsonl",
+      "sha256": "bedf7a01f7000ae577c879d5b9c1e161bd7e98433d4ac0bdc2001398aaab4dd4",
+      "bytes": 445743,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/scale-67c1a8c/seed_42/attempt_001/result/summary.json",
+      "package_path": "01_figures/data/dynamic_scale/seed_42/attempt_001/result/summary.json",
+      "sha256": "47e824160362fd89039115bf328a17950f11c1c9061afdbeba32119a2e5e3543",
+      "bytes": 84323,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "qeco-adapt2/results/dynamic_specialist_pilot/scale-67c1a8c/seed_42/attempt_001/result/trained_state.json",
+      "package_path": "01_figures/data/dynamic_scale/seed_42/attempt_001/result/trained_state.json",
+      "sha256": "7f245a25cd36bf68cd93f4fdd852d03eda6d3815b99cba2da52148afd38bd8d0",
+      "bytes": 158590,
+      "purpose": "completed diagnostic/resource probe; not full-pilot performance evidence"
+    },
+    {
+      "source_relative_to_documents": "QECO-Adapt/journals/A Task Offloading Algorithm with BiLSTM.pdf",
+      "package_path": "02_references/papers/R06.pdf",
+      "sha256": "5bbc6d22ec7db60385b8c08550e353ff65c50bbd3fbe555ca5da409652abed13",
+      "bytes": 533135,
+      "purpose": "reference [6]: A Task Offloading Algorithm Based on Deep Reinforcement Learning with BiLSTM for Mobile Edge Computing; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/qeco-qoe-oriented-computation-offloading/qeco-qoe-oriented-computation-offloading_원문.pdf",
+      "package_path": "02_references/papers/R07.pdf",
+      "sha256": "790dfb56089712301eea70d6d2a704201e9935429583578f06a5907e9dc7bef8",
+      "bytes": 2131334,
+      "purpose": "reference [7]: QECO: A QoE-Oriented Computation Offloading Algorithm Based on Deep Reinforcement Learning for Mobile Edge Computing; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/drl-task-offloading-mobile-edge-computing-systems/drl-task-offloading-mobile-edge-computing-systems_원문.pdf",
+      "package_path": "02_references/papers/R08.pdf",
+      "sha256": "f2535f694dd8a2035a52e35efd1cc769f2fa09891a9f7153fcb395a69572b33f",
+      "bytes": 967306,
+      "purpose": "reference [8]: Deep Reinforcement Learning for Task Offloading in Mobile Edge Computing Systems; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/droo-online-computation-offloading-wireless-powered-mec/droo-online-computation-offloading-wireless-powered-mec_원문.pdf",
+      "package_path": "02_references/papers/R09.pdf",
+      "sha256": "b4e4051b3b9272501edb98dc2e74b7cbf6b85f1a3a5ecac4d9a8a9c265db40f4",
+      "bytes": 6270126,
+      "purpose": "reference [9]: Deep Reinforcement Learning for Online Computation Offloading in Wireless Powered Mobile-Edge Computing Networks; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/lydroo-stable-online-computation-offloading-mec/lydroo-stable-online-computation-offloading-mec_원문.pdf",
+      "package_path": "02_references/papers/R10.pdf",
+      "sha256": "ad2f2389a3b3872026714c37631418e485ca9d113a6e63e99f22a599bcfaf9aa",
+      "bytes": 3042939,
+      "purpose": "reference [10]: Lyapunov-Guided Deep Reinforcement Learning for Stable Online Computation Offloading in Mobile-Edge Computing Networks; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/joint-task-offloading-channel-allocation-spatial-temporal-mec/joint-task-offloading-channel-allocation-spatial-temporal-mec_원문.pdf",
+      "package_path": "02_references/papers/R11.pdf",
+      "sha256": "a23ecb93b5e61c4bd34c476e5006ec37fb8839883b5011dc466d5ba973e6209d",
+      "bytes": 19902644,
+      "purpose": "reference [11]: Joint Task Offloading and Channel Allocation in Spatial-Temporal Dynamic for MEC Networks; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/decentralized-task-offloading-resource-allocation-ucmec/decentralized-task-offloading-resource-allocation-ucmec_원문.pdf",
+      "package_path": "02_references/papers/R12.pdf",
+      "sha256": "3f82d5ea89c1f597f1105c2ca59b737fa3490a4f7c965a9e2885d8bd6acee05c",
+      "bytes": 3073678,
+      "purpose": "reference [12]: Toward Decentralized Task Offloading and Resource Allocation in User-Centric MEC; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/joint-task-offloading-resource-allocation-multi-server-mec/jtora-joint-task-offloading-resource-allocation-multi-server-mec_원문.pdf",
+      "package_path": "02_references/papers/R13.pdf",
+      "sha256": "c120773a146616dcff08799a34e659d3e6f8bbaf316eb3cb45110067e71ec1d5",
+      "bytes": 346672,
+      "purpose": "reference [13]: Joint Task Offloading and Resource Allocation for Multi-Server Mobile-Edge Computing Networks; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/energy-aware-multi-server-mobile-edge-computing/energy-aware-multi-server-mobile-edge-computing_원문.pdf",
+      "package_path": "02_references/papers/R14.pdf",
+      "sha256": "8a0753fa5682cc26853a23ed5d4d8b821450e86fa06915fc8c094dcc14c071cc",
+      "bytes": 733663,
+      "purpose": "reference [14]: Energy-Aware Multi-Server Mobile Edge Computing: A Deep Reinforcement Learning Approach; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/human-level-control-deep-reinforcement-learning/human-level-dqn-human-level-control-deep-reinforcement-learning_원문.pdf",
+      "package_path": "02_references/papers/R15.pdf",
+      "sha256": "cc811007a48aea14fcc135158ed96d01982930f415045a19f89474bfa1a74eb5",
+      "bytes": 3821434,
+      "purpose": "reference [15]: Human-Level Control through Deep Reinforcement Learning; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/deep-reinforcement-learning-double-q-learning/double-dqn-deep-reinforcement-learning-double-q-learning_원문.pdf",
+      "package_path": "02_references/papers/R16.pdf",
+      "sha256": "a37336d7f35be5842740ef8e320bce03e725c03e56b7093afe98475c5c72e496",
+      "bytes": 789062,
+      "purpose": "reference [16]: Deep Reinforcement Learning with Double Q-Learning; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/dueling-network-architectures-deep-reinforcement-learning/dueling-dqn-dueling-network-architectures-deep-reinforcement-learning_원문.pdf",
+      "package_path": "02_references/papers/R17.pdf",
+      "sha256": "11239e342d42a03836fc9772b1a408bd8c2d483a86b5a18202dd1ef4d1f86a47",
+      "bytes": 688509,
+      "purpose": "reference [17]: Dueling Network Architectures for Deep Reinforcement Learning; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/long-short-term-memory/long-short-term-memory_원문.pdf",
+      "package_path": "02_references/papers/R18.pdf",
+      "sha256": "75dd2cc2e08ff3083ec814a46b2efbb3e3fc5ec7cc2b93be5003ff86285b70c9",
+      "bytes": 415447,
+      "purpose": "reference [18]: Long Short-Term Memory; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/tomac-ppo-task-offloading-marl/tomac-ppo-task-offloading-marl_원문.pdf",
+      "package_path": "02_references/papers/R19.pdf",
+      "sha256": "aa50fdf5e4630d54bc01de331df603e0cf7ed2d3f61bfcf720c807211158a900",
+      "bytes": 6918822,
+      "purpose": "reference [19]: A Task Offloading and Resource Allocation Strategy Based on Multi-Agent Reinforcement Learning in Mobile Edge Computing; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/cell-free-massive-mimo-versus-small-cells/cell-free-massive-mimo-versus-small-cells_원문.pdf",
+      "package_path": "02_references/papers/R20.pdf",
+      "sha256": "c74fa81e3215b45144ecfad4161f144b0073cca7207a6f5a2bf5e643ca8c1d18",
+      "bytes": 567422,
+      "purpose": "reference [20]: Cell-Free Massive MIMO Versus Small Cells; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/user-centric-cell-free-massive-mimo-survey/user-centric-cell-free-massive-mimo-survey_원문.pdf",
+      "package_path": "02_references/papers/R22.pdf",
+      "sha256": "19548501233df43642e85c9f4e6a576b6bbdbfd95762fed2e36d7140842fc2ce",
+      "bytes": 2492327,
+      "purpose": "reference [22]: User-Centric Cell-Free Massive MIMO Networks: A Survey of Opportunities, Challenges and Solutions; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/policy-invariance-reward-transformations-shaping/policy-invariance-reward-transformations-shaping_원문.pdf",
+      "package_path": "02_references/papers/R23.pdf",
+      "sha256": "e83f9d13b8c5415d78a187a0b9000c5ab6aa90f3029d5c957f5c46caaabed207",
+      "bytes": 211894,
+      "purpose": "reference [23]: Policy Invariance Under Reward Transformations: Theory and Application to Reward Shaping; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/invalid-action-masking-policy-gradient/invalid-action-masking-policy-gradient_원문.pdf",
+      "package_path": "02_references/papers/R24.pdf",
+      "sha256": "a12e4130dc9705a5222462e6a40d6e3a4535c62f74e00b3484ed1780eaeeefe2",
+      "bytes": 1010251,
+      "purpose": "reference [24]: A Closer Look at Invalid Action Masking in Policy Gradient Algorithms; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/safe-reinforcement-learning-via-shielding/safe-reinforcement-learning-via-shielding_원문.pdf",
+      "package_path": "02_references/papers/R25.pdf",
+      "sha256": "f8b87dcbd1932ffce5c2d6d2e84f788cc1d44dae3b1a4d001dbbee3c28567282",
+      "bytes": 1223856,
+      "purpose": "reference [25]: Safe Reinforcement Learning via Shielding; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/comprehensive-survey-safe-reinforcement-learning/comprehensive-survey-safe-reinforcement-learning_원문.pdf",
+      "package_path": "02_references/papers/R26.pdf",
+      "sha256": "492664795997ab663638218ccd34620ac7a5a89c510bffef53aecec72e37660b",
+      "bytes": 547474,
+      "purpose": "reference [26]: A Comprehensive Survey on Safe Reinforcement Learning; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/survey-safe-rl-constrained-mdps/survey-safe-rl-constrained-mdps_원문.pdf",
+      "package_path": "02_references/papers/R27.pdf",
+      "sha256": "7a20b570bcfc5dbce032559f394eb248827ae50abfa5ff8ea2b765f912fa3466",
+      "bytes": 872137,
+      "purpose": "reference [27]: A Survey of Safe Reinforcement Learning and Constrained MDPs: A Technical Survey on Single-Agent and Multi-Agent Safety; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/qoe-driven-multi-task-offloading-semantic/qoe-driven-multi-task-offloading-semantic_원문.pdf",
+      "package_path": "02_references/papers/R28.pdf",
+      "sha256": "0a0742477b348eaf9c708790730c682c8f6a24e9596247570f1f7902262d2d78",
+      "bytes": 3845902,
+      "purpose": "reference [28]: QoE-Driven Multi-Task Offloading for Semantic-Aware Edge Computing Systems; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/deep-reinforcement-learning-that-matters/deep-reinforcement-learning-that-matters_원문.pdf",
+      "package_path": "02_references/papers/R29.pdf",
+      "sha256": "0fc34bc1fb56746be58c2a4aa3d65b4b6fd7c732886edff368898ea00273e917",
+      "bytes": 9471288,
+      "purpose": "reference [29]: Deep Reinforcement Learning That Matters; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/how-many-random-seeds-drl/how-many-random-seeds-drl_원문.pdf",
+      "package_path": "02_references/papers/R30.pdf",
+      "sha256": "83408576427473fdb059184e689c027ac9b34815f2d96d4c977270ad514ec78f",
+      "bytes": 3305262,
+      "purpose": "reference [30]: How Many Random Seeds? Statistical Power Analysis in Deep Reinforcement Learning Experiments; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/drl-statistical-precipice/drl-statistical-precipice_원문.pdf",
+      "package_path": "02_references/papers/R31.pdf",
+      "sha256": "a6a5abb49e58a9e4a0be8556c8351ce8c3b52e70216bffc9fa80eac0823ec5ed",
+      "bytes": 22838819,
+      "purpose": "reference [31]: Deep Reinforcement Learning at the Edge of the Statistical Precipice; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/adastop-sequential-testing-deep-rl/adastop-sequential-testing-deep-rl_원문.pdf",
+      "package_path": "02_references/papers/R32.pdf",
+      "sha256": "2fb255d6cf27ab4258083cbbc3364ae394ea887757381fb623afc6bfa4429496",
+      "bytes": 1668443,
+      "purpose": "reference [32]: AdaStop: Sequential Testing for Efficient and Reliable Comparisons of Deep RL Agents; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/deep-learning-user-centric-clustering-cf-mimo/deep-learning-user-centric-clustering-cf-mimo_원문.pdf",
+      "package_path": "02_references/papers/R35.pdf",
+      "sha256": "4f3a22580485d9af0163a9961e5880b632709796eea3db1d96d87c729de446da",
+      "bytes": 696224,
+      "purpose": "reference [35]: A Deep Learning Approach for User-Centric Clustering in Cell-Free Massive MIMO Systems; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/graph-neural-rl-offloading-mec/graph-neural-rl-offloading-mec_원문.pdf",
+      "package_path": "02_references/papers/R36.pdf",
+      "sha256": "e3059e714679ea2d4a37b73054ac64398419a7b4f3f4dafcfd62b95981a36dbe",
+      "bytes": 8457971,
+      "purpose": "reference [36]: Offloading Strategy Based on Graph Neural Reinforcement Learning in Mobile Edge Computing; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/gnn-task-offloading-scalable-vehicular/gnn-task-offloading-scalable-vehicular_원문.pdf",
+      "package_path": "02_references/papers/R37.pdf",
+      "sha256": "46ebe16896e59ad2ca8806049d1f81fb68ff9496e48e503a15262b16d701639d",
+      "bytes": 1226570,
+      "purpose": "reference [37]: Graph Neural Network-Based Task Offloading and Resource Allocation for Scalable Vehicular Networks; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/task-graph-offloading-drl-mec/task-graph-offloading-drl-mec_원문.pdf",
+      "package_path": "02_references/papers/R38.pdf",
+      "sha256": "de1788c733ab367860abee6414f739044f43025f7bdf64f556a4b406ecde5b37",
+      "bytes": 2005280,
+      "purpose": "reference [38]: Task Graph Offloading via Deep Reinforcement Learning in Mobile Edge Computing; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/chestnut-qos-dataset-mobile-edge/chestnut-qos-dataset-mobile-edge_원문.pdf",
+      "package_path": "02_references/papers/R39.pdf",
+      "sha256": "dbf85471608f12da44c4a4bef154d8fa77cc63d231e4a7f1dc6fb674d919c1f8",
+      "bytes": 9349847,
+      "purpose": "reference [39]: CHESTNUT: A QoS Dataset for Mobile Edge Environments; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/fast-adaptive-task-offloading-meta-rl/fast-adaptive-task-offloading-meta-rl_원문.pdf",
+      "package_path": "02_references/papers/R40.pdf",
+      "sha256": "f3cf81e4cff6f1ad7927193e4ee9c84fe06a4cf52db6983ac15ce0f24cb5c843",
+      "bytes": 848949,
+      "purpose": "reference [40]: Fast Adaptive Task Offloading in Edge Computing Based on Meta Reinforcement Learning; scholarly review only"
+    },
+    {
+      "source_relative_to_documents": "research_files/dmro-deep-meta-rl-task-offloading/dmro-deep-meta-rl-task-offloading_원문.pdf",
+      "package_path": "02_references/papers/R41.pdf",
+      "sha256": "7b9098f906903941b72ad96242631df647ceb75829bd206c659e5cde8c03d909",
+      "bytes": 3516529,
+      "purpose": "reference [41]: DMRO: A Deep Meta Reinforcement Learning-Based Task Offloading Framework for Edge-Cloud Computing; scholarly review only"
+    }
+  ],
+  "reference_count": 41,
+  "included_reference_pdfs": 33,
+  "new_pdf_downloads": 0
+}
